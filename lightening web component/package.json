@@ -1,0 +1,32 @@
+{
+    "author": "Bishal_Rakshit",
+    "homepage": "https://github.com/ronnie8789/LIGHTENING%20WEB%20COMPONENT",
+    "name": "root",
+    "workspaces": [
+        "packages/*"
+    ],
+    "private": true,
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "~4.24.0",
+        "@typescript-eslint/parser": "~4.24.0",
+        "eslint": "~7.27.0",
+        "eslint-plugin-inclusive-language": "~2.1.1",
+        "husky": "~6.0.0",
+        "lerna": "~4.0.0",
+        "prettier": "~2.3.0",
+        "ts-node": "~9.1.1",
+        "typescript": "~4.2.4"
+    },
+    "scripts": {
+        "build": "lerna run build",
+        "clean": "lerna run clean && lerna clean --yes && rm -rf node_modules",
+        "lint": "eslint ./packages/**/src/**/*.ts",
+        "postinstall": "rm -rf node_modules/@types/webpack && husky install",
+        "prepare": "npm run build",
+        "precommit": "npm run prettier && [ $? -eq 0 ] && npm run lint",
+        "prettier": "prettier --write '**/*.{html,css,js,json,md,ts,yaml,yml}'",
+        "prettier:verify": "prettier --list-different '**/*.{html,css,js,json,md,ts,yaml,yml}'",
+        "publish-beta": "lerna publish from-package --dist-tag beta",
+        "publish-prod": "lerna publish from-package"
+    }
+}

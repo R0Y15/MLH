@@ -1,0 +1,11 @@
+{
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+        "publish": {
+            "forcePublish": "*"
+        }
+    },
+    "packages": ["packages/create-lwc-app", "packages/lwc-services"],
+    "version": "2.2.2"
+}
