@@ -1,0 +1,86 @@
+/*     #  height, width, floating, alignment, positioning, padding, margin     */
+
+/*    header    */
+
+#logout {
+  width: auto;
+  padding: 2%;
+}
+
+
+#
+////////////////////////////////////
+
+.main-div{
+  position: absolute;
+  height: 80%;
+}
+
+.center, .button-center{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.heading{
+  padding: 3%;
+}
+
+.form, .list-table{
+  width: 30%;
+  padding: 2%;
+  margin: auto;
+}
+
+.editable-form{
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.editable-input{
+  margin: 1%;
+}
+
+.list-table{
+  width: 40%;
+  padding: 0;
+}
+
+th{
+  padding: 2%;
+}
+td{
+  padding: 1%;
+}
+.num{
+  text-indent: 2px;
+  text-align: left;
+}
+.login-form-right{
+  margin: 2% 3% auto auto !important;
+}
+.sub-heading{
+  padding-bottom: 5%;
+}
+.buttons-group{
+  padding-top: 2%;
+}
+.admin-buttons-group, .login-form-right{
+  float: inline-end;
+}
+.admin-buttons-group{
+  width: 60%;
+}
+
+.clickable{
+  padding: 0 1%;
+}
+.input-typing {
+    float: inline-end;
+    margin-right: 14%;
+}
+.shops{
+  text-align: left;
+}
+/////////////////////////////////////////

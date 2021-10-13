@@ -1,0 +1,30 @@
+/*   basic decorations   */
+
+h2, .sub-heading{
+  text-decoration: underline;
+}
+
+.form-index{
+  border-style: dashed;
+}
+
+.login-form-right{
+  border-bottom-style: none;
+  border-top-style: none;
+  border-radius: 100%;
+}
+
+table{
+  width: 50%;
+}
+
+th{
+  color: red;
+  text-decoration: underline;
+}
+.num, .logout{
+  font-weight: bold;
+}
+#bill{
+  font-size: 26px;
+}

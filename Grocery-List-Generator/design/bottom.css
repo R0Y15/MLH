@@ -1,0 +1,21 @@
+/*******************************************************/
+body{
+  padding-bottom: 10%;
+}
+footer{
+  margin: 3%;
+  padding: 80%;
+  color: green;
+  border-top-style: solid;
+  border-width: thin;
+  text-align: right;
+  border-color: #fbfcff;
+  color: #5bc2e7;
+}
+
+.copywrite{
+  color: #5bc2e7;
+  text-decoration: none;
+}
+
+/*******************************************************/

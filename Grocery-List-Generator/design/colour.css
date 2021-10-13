@@ -1,0 +1,13 @@
+/*   colour schemes   */
+
+#heading, #bill{
+  color: green;
+}
+
+#logout{
+  background-color: grey;
+}
+
+th{
+  color: red;
+}
